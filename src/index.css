@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: iranYekan;
+  src: url("./fonts/iranyekanwebregular.ttf") format('truetype');
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {font-family: "Yekan-Numbers Regular";
+  src: 
+  url("./fonts/123103d064093ff198b61fa9330b0d8f.eot") format("embedded-opentype"), 
+  url("./fonts/123103d064093ff198b61fa9330b0d8f.woff2") format("woff2"), 
+  url("./fonts/123103d064093ff198b61fa9330b0d8f.woff2") format("woff"), 
+  url("./fonts/123103d064093ff198b61fa9330b0d8f.ttf") format("truetype"), 
+  url("./fonts/123103d064093ff198b61fa9330b0d8f.svg#Yekan-Numbers Regular") format("svg");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+a {
+  text-decoration: none;
 }
